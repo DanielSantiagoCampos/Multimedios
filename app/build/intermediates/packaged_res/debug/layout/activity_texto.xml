@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/descargar"
+    tools:context=".Texto">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="21dp"
+        android:text="TEXTO"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/regresar3"
+        app:layout_constraintStart_toStartOf="@+id/regresar3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="19dp"
+        android:text="Había una vez una pequeña aldea en medio de un bosque, rodeada de montañas y cascadas. Los habitantes de esta aldea eran conocidos por ser muy trabajadores y amables entre sí, siempre dispuestos a ayudarse mutuamente en lo que fuera necesario.  Un día, un extraño llegó a la aldea. Era un hombre alto y delgado, con barba y ojos oscuros. Se presentó como un artista itinerante y les contó que estaba buscando inspiración para su próximo cuadro.  Los aldeanos lo acogieron con gusto y le ofrecieron una casa donde podía quedarse mientras exploraba la zona en busca de inspiración. Durante los siguientes días, el artista se dedicó a caminar por el bosque y observar la naturaleza, intentando capturar en su mente la esencia de la aldea y sus alrededores.  Un día, mientras estaba sentado en el río, el artista vio algo que lo dejó sin aliento. Era una hermosa cascada, con agua cristalina cayendo desde lo alto de una montaña. El artista sabía que había encontrado lo que estaba buscando y corrió de vuelta a la aldea para preparar su lienzo.  Durante los siguientes días, el artista trabajó incansablemente en su cuadro, intentando capturar la belleza y la majestuosidad de la cascada en su lienzo. Los aldeanos lo visitaban de vez en cuando para ver su progreso y quedaban impresionados por la habilidad del artista.  Finalmente, el cuadro estuvo listo. El artista lo presentó a los aldeanos en una pequeña exposición en la plaza del pueblo. Todos se reunieron alrededor del cuadro, admirando la belleza y la magia que el artista había logrado capturar en su obra.  La exposición fue un éxito y el artista se marchó de la aldea con una sonrisa en el rostro, sabiendo que había dejado algo especial detrás de sí. Los aldeanos seguían hablando del cuadro durante semanas, y todos recordaban con cariño al artista que había pasado un tiempo con ellos y había capturado la belleza de su hogar en su obra de arte."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regresar3" />
+
+    <Button
+        android:id="@+id/regresar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="DEVOLVER"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
